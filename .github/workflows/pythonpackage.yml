@@ -25,6 +25,8 @@ jobs:
         pip install pytest
         pytest tests
   docker-push:
+    needs:
+    - build
     runs-on: ubuntu-latest
     steps:
     - name: Docker Login
