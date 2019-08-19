@@ -35,9 +35,9 @@ jobs:
     - name: Docker build
       uses: actions/docker/cli@master
       with:
-        args: build -t test-github-actions .
+        args: build -t dmanchon/test-github-actions .
     - name: Docker push
       uses: actions/docker/cli@master
       with:
-        args: push test-github-actions
+        args: push dmanchon/test-github-actions
         
