@@ -31,5 +31,4 @@ jobs:
       uses: actions/docker/login@master
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-      env:
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
