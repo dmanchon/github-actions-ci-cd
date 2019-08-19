@@ -32,4 +32,3 @@ jobs:
     - secrets:
       - DOCKER_USERNAME
       - DOCKER_PASSWORD
-}
